@@ -6,7 +6,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.common.util.ForgeDirection;
 
 public class TileEntityRFWire extends TileEntity implements IEnergyHandler{
-	protected EnergyStorage storage = new EnergyStorage(32000);
+	private EnergyStorage storage = new EnergyStorage(100000);
 
 	@Override
 	public boolean canConnectEnergy(ForgeDirection from) {
