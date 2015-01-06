@@ -1,4 +1,4 @@
 Simple-RF-Wire
 ==============
 
-A simple redstone flux wire.
+The most low-down and simple redstone-flux-based wire possible, added to the game.
